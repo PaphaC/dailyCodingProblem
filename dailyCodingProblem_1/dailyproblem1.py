@@ -11,6 +11,7 @@ def adds_up_n_2(number_list, k):
     return False
 
 # Second solution, for a o(n) anwser
+# Also see this solution: https://github.com/wdhif/daily-coding-problem/blob/master/1.py
 def adds_up_n(number_list, k):
     # Create a tab with k values [False, False, ...k]
     seen = [False] * (k + 1)
